@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="133272" started-at="2019-10-31T09:40:34Z" finished-at="2019-10-31T09:42:47Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="133272" started-at="2019-10-31T09:40:34Z" finished-at="2019-10-31T09:42:47Z">
+      <class name="files.Logintest">
+        <test-method status="PASS" signature="method()[pri:0, instance:files.Logintest@647fd8ce]" name="method" duration-ms="37888" started-at="2019-10-31T15:12:09Z" finished-at="2019-10-31T15:12:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+      </class> <!-- files.Logintest -->
+      <class name="files.Hoteltest">
+        <test-method status="PASS" signature="method()[pri:0, instance:files.Hoteltest@6193932a]" name="method" duration-ms="39581" started-at="2019-10-31T15:11:29Z" finished-at="2019-10-31T15:12:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+      </class> <!-- files.Hoteltest -->
+      <class name="files.flighttest">
+        <test-method status="FAIL" signature="method()[pri:0, instance:files.flighttest@12b0404f]" name="method" duration-ms="27559" started-at="2019-10-31T15:10:34Z" finished-at="2019-10-31T15:11:01Z">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <input id="FlightsDateStart" class="form-control form-readonly-control" placeholder="Depart" name="departure_date" value="" readonly=""> is not clickable at point (545, 423). Other element would receive the click: <div id="select2-drop-mask" class="select2-drop-mask" style="display: block;"></div>
+  (Session info: chrome=78.0.3904.70)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'CBT-MH-000', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\ONLINE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61903}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2406ba8477cbccefa2a0e24e6293e542]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input id="FlightsDateStart" class="form-control form-readonly-control" placeholder="Depart" name="departure_date" value="" readonly=""> is not clickable at point (545, 423). Other element would receive the click: <div id="select2-drop-mask" class="select2-drop-mask" style="display: block;"></div>
+  (Session info: chrome=78.0.3904.70)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'CBT-MH-000', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\ONLINE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61903}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2406ba8477cbccefa2a0e24e6293e542
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at Automation.php.flight.flights(flight.java:53)
+	at files.flighttest.method(flighttest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+      </class> <!-- files.flighttest -->
+      <class name="files.regtestcase">
+        <test-method status="PASS" signature="method()[pri:0, instance:files.regtestcase@71b1176b]" name="method" duration-ms="28121" started-at="2019-10-31T15:11:01Z" finished-at="2019-10-31T15:11:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+      </class> <!-- files.regtestcase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

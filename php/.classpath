@@ -28,5 +28,7 @@
 	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/commons-io-2.6/commons-io-2.6-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/commons-io-2.6/commons-io-2.6-tests.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/commons-io-2.6/commons-io-2.6-test-sources.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Online Test/Downloads/log4j-1.2.17.jar/log4j-1.2.17.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
