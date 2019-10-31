@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17782" started-at="2019-10-31T09:39:23Z" finished-at="2019-10-31T09:39:41Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="17782" started-at="2019-10-31T09:39:23Z" finished-at="2019-10-31T09:39:41Z">
+      <class name="assgnmnt.posttweet">
+        <test-method status="PASS" signature="createTweet()[pri:0, instance:assgnmnt.posttweet@1e6d1014]" name="createTweet" duration-ms="7222" started-at="2019-10-31T09:39:23Z" finished-at="2019-10-31T09:39:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTweet -->
+      </class> <!-- assgnmnt.posttweet -->
+      <class name="assgnmnt.Tsixth">
+        <test-method status="PASS" signature="createTweet()[pri:0, instance:assgnmnt.Tsixth@76707e36]" name="createTweet" duration-ms="5053" started-at="2019-10-31T09:39:31Z" finished-at="2019-10-31T09:39:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTweet -->
+      </class> <!-- assgnmnt.Tsixth -->
+      <class name="assgnmnt.weather">
+        <test-method status="PASS" signature="getWeather()[pri:0, instance:assgnmnt.weather@1c3a4799]" name="getWeather" duration-ms="573" started-at="2019-10-31T09:39:40Z" finished-at="2019-10-31T09:39:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWeather -->
+      </class> <!-- assgnmnt.weather -->
+      <class name="assgnmnt.Twitter1">
+        <test-method status="PASS" signature="createTweet()[pri:0, instance:assgnmnt.Twitter1@614ddd49]" name="createTweet" duration-ms="1972" started-at="2019-10-31T09:39:36Z" finished-at="2019-10-31T09:39:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTweet -->
+      </class> <!-- assgnmnt.Twitter1 -->
+      <class name="assgnmnt.Block">
+        <test-method status="PASS" signature="createtweet()[pri:0, instance:assgnmnt.Block@1f554b06]" name="createtweet" duration-ms="1528" started-at="2019-10-31T09:39:38Z" finished-at="2019-10-31T09:39:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createtweet -->
+      </class> <!-- assgnmnt.Block -->
+      <class name="assgnmnt.username">
+        <test-method status="PASS" signature="UserName()[pri:0, instance:assgnmnt.username@694e1548]" name="UserName" duration-ms="1337" started-at="2019-10-31T09:39:39Z" finished-at="2019-10-31T09:39:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserName -->
+      </class> <!-- assgnmnt.username -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
